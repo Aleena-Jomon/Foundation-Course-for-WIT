@@ -1,0 +1,64 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar img {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a {
+  color: #0060B6;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+body{
+  background-color: rgb(139, 145, 145);
+}
+
+.navbar a{
+    float: inherit;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.heading{
+    font-size: large;
+    width: 100%;
+    background-color: rgba(75, 45, 9, 0.342);
+}
+
+.navbar a:hover {
+  color: rgb(75, 75, 75);
+}
+
+.matter_heading{
+  font-size: x-large;
+  font-style: italic;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
